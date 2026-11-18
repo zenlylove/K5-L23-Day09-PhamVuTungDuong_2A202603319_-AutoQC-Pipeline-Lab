@@ -1,0 +1,18 @@
+{
+  "verdict": {
+    "decision": "Hold",
+    "n_errors": 0,
+    "n_warn_images": 34,
+    "n_images": 193,
+    "warn_ratio": 0.1762,
+    "reasons": [
+      "34/193 ảnh còn cảnh báo chưa duyệt (17.6%), đạt/vượt ngưỡng 10.0%"
+    ]
+  },
+  "reviewed": 80,
+  "budget": 80,
+  "seconds": 2.7,
+  "exported": "/Users/poseidon/K5-L23-Day09-PhamVuTungDuong_2A202603319_-AutoQC-Pipeline-Lab/submission/export/clean_v1",
+  "config_sha1": "eb7d1f3f1756f5262960d5e1a294d5d4f930dd2f",
+  "review_sim_sha1": "7988ca22827f780a7043a2300490e679a1697154"
+}

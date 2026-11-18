@@ -1,0 +1,67 @@
+check,severity,code,image,line,message,extra
+missing_labels,warn,EMPTY_LABEL,img_0097,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0129,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0192,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+label_format,warn,BOX_HUGE,img_0018,1,box chiếm 0.9705 diện tích chuẩn hóa,"{""area_frac"": 0.9704854060160001}"
+label_format,warn,BOX_TINY,img_0026,6,cạnh ngắn 11.41px < 12px,"{""short_side_px"": 11.407912}"
+label_format,warn,BOX_TINY,img_0051,5,cạnh ngắn 8.91px < 12px,"{""short_side_px"": 8.90592}"
+label_format,warn,BOX_TINY,img_0069,2,cạnh ngắn 11.22px < 12px,"{""short_side_px"": 11.21536}"
+label_format,warn,BOX_HUGE,img_0128,1,box chiếm 0.9884 diện tích chuẩn hóa,"{""area_frac"": 0.988382}"
+label_format,warn,BOX_TINY,img_0161,2,cạnh ngắn 10.26px < 12px,"{""short_side_px"": 10.25904}"
+label_format,warn,BOX_TINY,img_0161,3,cạnh ngắn 11.40px < 12px,"{""short_side_px"": 11.3952}"
+label_format,warn,BOX_TINY,img_0161,4,cạnh ngắn 11.87px < 12px,"{""short_side_px"": 11.86608}"
+label_format,warn,BOX_TINY,img_0183,11,cạnh ngắn 11.78px < 12px,"{""short_side_px"": 11.77984}"
+label_format,warn,BOX_HUGE,img_0196,1,box chiếm 0.9842 diện tích chuẩn hóa,"{""area_frac"": 0.9842264122159999}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0014,2,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0015,,box cùng lớp có IoU thấp (0.343),"{""conf"": 0.8941, ""iou"": 0.3434455934432383}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0018,,box cùng lớp có IoU thấp (0.447),"{""conf"": 0.7195, ""iou"": 0.4470426447819693}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0022,2,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_MISSING,img_0032,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.608}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0035,2,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0036,,box cùng lớp có IoU thấp (0.427),"{""conf"": 0.8733, ""iou"": 0.42652477076992373}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0045,,box cùng lớp có IoU thấp (0.335),"{""conf"": 0.7519, ""iou"": 0.33476178349319957}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0046,,box cùng lớp có IoU thấp (0.382),"{""conf"": 0.8928, ""iou"": 0.3823233906495968}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0054,,box cùng lớp có IoU thấp (0.379),"{""conf"": 0.7403, ""iou"": 0.37880261832775625}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0058,,box cùng lớp có IoU thấp (0.453),"{""conf"": 0.7285, ""iou"": 0.4534370760405646}"
+second_opinion,warn,POSSIBLE_MISSING,img_0062,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.6374}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0064,,box cùng lớp có IoU thấp (0.450),"{""conf"": 0.9147, ""iou"": 0.45010497657783627}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0068,8,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0069,2,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0075,6,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0077,,box cùng lớp có IoU thấp (0.402),"{""conf"": 0.7352, ""iou"": 0.4016279290671218}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0078,,model và nhãn có thể khác lớp (IoU 0.919),"{""conf"": 0.8287, ""iou"": 0.9189310218686991}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0082,,box cùng lớp có IoU thấp (0.483),"{""conf"": 0.8085, ""iou"": 0.4834327463044831}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0083,,model và nhãn có thể khác lớp (IoU 0.974),"{""conf"": 0.6948, ""iou"": 0.9738458397765963}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0090,,box cùng lớp có IoU thấp (0.463),"{""conf"": 0.7153, ""iou"": 0.4628350771458936}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0091,7,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0093,3,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0095,6,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0099,,box cùng lớp có IoU thấp (0.302),"{""conf"": 0.6892, ""iou"": 0.302285320050106}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0111,2,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0119,,box cùng lớp có IoU thấp (0.408),"{""conf"": 0.706, ""iou"": 0.40835910199990577}"
+second_opinion,warn,POSSIBLE_MISSING,img_0121,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.7641}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0124,8,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0125,,box cùng lớp có IoU thấp (0.421),"{""conf"": 0.8328, ""iou"": 0.42099341975298876}"
+second_opinion,warn,POSSIBLE_MISSING,img_0126,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.7174}"
+second_opinion,warn,POSSIBLE_MISSING,img_0127,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.6843}"
+second_opinion,warn,POSSIBLE_MISSING,img_0127,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.6298}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0131,11,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0134,5,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_MISSING,img_0135,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.7297}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0142,,box cùng lớp có IoU thấp (0.428),"{""conf"": 0.658, ""iou"": 0.42779459598869807}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0149,3,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0150,3,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_MISSING,img_0159,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.6658}"
+second_opinion,warn,POSSIBLE_MISSING,img_0160,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.7768}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0175,,box cùng lớp có IoU thấp (0.422),"{""conf"": 0.8997, ""iou"": 0.4215077681105207}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0180,5,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_MISSING,img_0183,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.8104}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0189,4,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0191,1,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_MISSING,img_0199,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.7376}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0200,,box cùng lớp có IoU thấp (0.434),"{""conf"": 0.6911, ""iou"": 0.43446286020480024}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0206,1,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0212,,box cùng lớp có IoU thấp (0.329),"{""conf"": 0.6733, ""iou"": 0.3285078952560335}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0212,4,box nhãn không khớp dự đoán nào của model,
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0220,,model và nhãn có thể khác lớp (IoU 0.911),"{""conf"": 0.7077, ""iou"": 0.9106244643380735}"
+second_opinion,warn,POSSIBLE_MISSING,img_0220,,model thấy vật thể nhưng không có box nhãn khớp,"{""conf"": 0.625}"
