@@ -30,7 +30,12 @@ Chạy `python -m pipeline.run --budget 0 --reports work/rep_nb --export-dir wor
 Điểm mù có bằng chứng: sau mô phỏng vẫn có 18 cảnh báo `POSSIBLE_LOOSE_BOX`, trong đó một số IoU chỉ nhỉnh hơn ngưỡng `iou_missing`; và 3 `POSSIBLE_WRONG_CLASS` còn lại. Model checker chỉ đưa ý kiến, không có đáp án vàng cho raw để xác nhận nhãn nào đúng. Ngoài ra, nếu model và nhãn cùng bỏ sót hoặc cùng nhầm một vật, so sánh hai bên có thể im lặng; cần kiểm tra thủ công ảnh/nhãn.
 
 ## 5. Train: raw vs clean
-**Chưa chạy.** Phần train Colab là tùy chọn và chưa có kết quả; không kết luận clean tốt hơn raw khi chưa có các seed và metric so sánh.
+| Biến thể | Ảnh train | Seed | mAP50 (TB ± SD) | mAP50-95 (TB ± SD) | Precision (TB ± SD) | Recall (TB ± SD) |
+|---|---:|---:|---:|---:|---:|---:|
+| raw | 224 | 2 | 0.726 ± 0.000 | 0.512 ± 0.004 | 0.764 ± 0.061 | 0.649 ± 0.028 |
+| clean | 193 | 2 | 0.729 ± 0.002 | 0.500 ± 0.000 | 0.794 ± 0.028 | 0.619 ± 0.005 |
+
+Chênh mAP50 (clean − raw) là **+0.004**, nhỏ so với số ảnh test 100 và chỉ có 2 seed; chưa đủ bằng chứng để kết luận clean tốt hơn. Raw có thể được lợi từ 11 ảnh rò rỉ test/val mà intake phát hiện; có thể kiểm bằng đối chiếu `01_intake` và huấn luyện một biến thể raw đã loại leakage. Clean vẫn còn 34/193 ảnh cảnh báo chưa duyệt, nên nhãn còn nhiễu; có thể kiểm bằng review thủ công và so sánh lại sau khi sửa. Hai biến thể cũng khác số ảnh train (224 so với 193), là một yếu tố cần lưu ý khi diễn giải.
 
 ## 6. Quyết định và ghi chú AI
 Giữ quyết định **Hold**, không phát hành bản nháp. Để xét Release, người cần xử lý/đánh giá cảnh báo còn lại cho tỷ lệ dưới 10% (với 193 ảnh, tối đa 19 ảnh còn cảnh báo) và đảm bảo không còn lỗi bắt buộc.
